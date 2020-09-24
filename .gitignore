@@ -1,0 +1,6 @@
+# Don't track content of these folders
+node_modules/
+dist/
+
+# Don't track contents of these files
+electron-builder.yml

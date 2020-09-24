@@ -1,0 +1,28 @@
+{
+  "name": "supersonicdist",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "dependencies": {
+    "electron-builder": "^22.8.1",
+    "electron-updater": "^4.3.5"
+  },
+  "devDependencies": {
+    "electron": "^10.1.2"
+  },
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder build --mac --win --publish never",
+    "deploy": "electron-builder build --mac --win --publish always"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/14perkinss/supersonicDist.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/14perkinss/supersonicDist/issues"
+  },
+  "homepage": "https://github.com/14perkinss/supersonicDist#readme"
+}
